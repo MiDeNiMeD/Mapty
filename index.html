@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" type="image/png" href="/img/icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0"
+    />
+
+    <link rel="stylesheet" href="./css/style-Login.css" />
+    <title>Login</title>
+
+
+
+  </head>
+  <body class="body">
+    <div class="theme">
+      <div class="theme-container shadow-dark">
+        <img
+          id="theme-icon"
+          src="https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg"
+          alt="ERR"
+        />
+      </div>
+    </div>
+    <div class="login">
+      <div class="avatar">
+        <img class="avatar-img"  />
+      </div>
+      <h2>Login</h2>
+      <h3 class="welcome">Welcome back </h3>
+
+      <form class="login-form">
+        <div class="textbox">
+          <input type="text" placeholder="Username" class="userName ipt-name" />
+          <span class="material-symbols-outlined account_circle textbox-span">
+            account_circle
+          </span>
+        </div>
+        <div class="textbox">
+          <input
+            type="password"
+            placeholder="Password"
+            class="passWord ipt-pass"
+          />
+          <span class="material-symbols-outlined lock textbox-span">
+            lock
+          </span>
+        </div>
+        <button class="login-btn" type="submit">LOGIN</button>
+        <a href="#" class="show-modal" id="forget">Forgot your credentials?</a>
+      </form>
+    </div>
+
+    <div class="modalF hidden">
+      <button class="close-modal">&times;</button>
+      <h1>Login account unsuccessful ?</h1>
+      <p>
+        check you phone messages we send your account information to your phone
+        number. If your account recovery request wasn't granted, you can keep
+        trying as many times as you want, up to two times per day.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="./script/script-Login.js"></script>
+
+  </body>
+</html>
