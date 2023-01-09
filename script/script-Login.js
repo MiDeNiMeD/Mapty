@@ -31,7 +31,7 @@ document.querySelector('.userName').addEventListener('change',()=>{
   }
   if(document.querySelector('.userName').value=='yassinemiled')
   {
-  userNameO = 'yassine';
+  userNameO = 'yassinemiled';
   avatar.src = `/img/avatar-yassine.jpg`;
   welcome.textContent="Welcome back Yassine"
   }
