@@ -29,7 +29,7 @@ document.querySelector('.userName').addEventListener('change',()=>{
   avatar.src = `/img/avatar-med.jpg`;
   welcome.textContent="Welcome back Mideni"
   }
-  if(document.querySelector('.userName').value=='yassinemiledi')
+  if(document.querySelector('.userName').value=='yassinemiled')
   {
   userNameO = 'yassine';
   avatar.src = `/img/avatar-yassine.jpg`;
